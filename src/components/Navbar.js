@@ -6,7 +6,7 @@ import ReorderIcon from "@mui/icons-material/Reorder";
 const Navbar = () => {
   const [expandNavbar, setExpendNavbar] = useState(false);
   return (
-    <div className="navbar">
+    <div className="navbar" id={expandNavbar ? "open" : "close"}>
       <div className="toggleButton">
         <button
           onClick={() => {
