@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/navbar.css";
-import ReorderIcon from "@mui/material";
+import ReorderIcon from "@mui/icons-material/Reorder";
 
 const Navbar = () => {
   return (
