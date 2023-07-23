@@ -29,9 +29,27 @@
   font-size: 30px;
 }
 .prompt svg {
-  font-size: 60px;
   margin: 5px;
   color: white;
+
+  margin: 20px;
+  font-size: 50px;
+  cursor: pointer;
+  transition: 0.5s all;
+  border-radius: 6px;
+}
+
+.prompt svg:nth-child(2):hover {
+  color: #0072b1;
+  background-color: #fff;
+}
+.prompt svg:nth-child(3):hover {
+  color: #1877f2;
+  background-color: #fff;
+}
+.prompt svg:nth-child(4):hover {
+  color: #1b4671;
+  background-color: #fff;
 }
 
 .skills {
