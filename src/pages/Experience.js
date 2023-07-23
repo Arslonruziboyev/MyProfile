@@ -5,6 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@mui/icons-material/School";
+import WorkIcon from "@mui/icons-material/Work";
 
 function Experience() {
   return (
@@ -12,7 +13,7 @@ function Experience() {
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="verticle-timeline-element--education"
-          date="2015-2018"
+          date="2018-2022"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
@@ -27,6 +28,18 @@ function Experience() {
           date="Started 2023"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
+        >
+          <h3 className="verticle-timline-element--title">
+            Gachon University, In South Korea, Seoul, Seongnam
+          </h3>
+          <p>Master's Degree, Computer Engineering</p>
+          <p>GPA 4.7 out of 5</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="verticle-timeline-element--education"
+          date="2019-2022"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
         >
           <h3 className="verticle-timline-element--title">
             Gachon University, In South Korea, Seoul, Seongnam
