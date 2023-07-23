@@ -2,6 +2,7 @@ import React from "react";
 import LinkedinIcon from "@mui/icons-material/LinkedIn";
 import GithubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
+import "../styles/home.css";
 
 function Home() {
   return (
