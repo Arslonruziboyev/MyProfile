@@ -20,11 +20,16 @@ function Home() {
         <h1>Skills</h1>
         <ol className="list">
           <li className="item">
-            <h2>Front-End</h2>
-            <span>Html, Css, JavaScript</span>
+            <h2>Front-End (Web Developing)</h2>
+
+            <span>
+              HTML, HTML3, CSS, CSS3 (Flexbox/Grid/Scss), Responsive Design,
+              Bootstrap, JavaScript (TypeScript), React (React Hooks), Git and
+              GitHub, Restful API, NPM, Working with Office Programs
+            </span>
           </li>
           <li className="item">
-            <h2>Languaged</h2>
+            <h2>Languages</h2>
             <span>Uzbek, English, Korean</span>
           </li>
         </ol>

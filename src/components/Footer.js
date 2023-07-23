@@ -15,7 +15,7 @@ function Footer() {
 
         <GithubIcon />
       </div>
-      <p>&copy; 2023 Aslan, all rughts reserved</p>
+      <p>&copy; 2023 Aslan, all rights reserved</p>
     </div>
   );
 }

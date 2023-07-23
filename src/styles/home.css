@@ -55,6 +55,13 @@
 .list span {
   font-size: 20px;
 }
+.skill-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+}
 
 @media only screen and (max-width: 600px) {
   .about h2 {
