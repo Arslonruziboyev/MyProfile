@@ -15,7 +15,12 @@ function Experience() {
           date="2010-2014"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
-        ></VerticalTimelineElement>
+        >
+          <h3 className="verticle-timline-element--title">
+            My random high school
+          </h3>
+          <p>High Schoole Diploma</p>
+        </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
   );
