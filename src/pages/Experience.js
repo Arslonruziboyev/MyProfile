@@ -44,11 +44,26 @@ function Experience() {
           <h3 className="verticle-timline-element--title">
             Web Developer(JavaScript/React)
           </h3>
+          <p>South Korea, Seoul, Seongnam, Gachon University</p>
           <p>
-            building a healthcare website with groupmates in our lab at Gachon
-            University
+            Building User Interface for Healthcare Sarcopenia Project with
+            groupmates in our lab at Gachon University
           </p>
-          <p>Building User Interface for Healthcare Sarcopenia Project</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="verticle-timeline-element--education"
+          date="2019-2022"
+          iconStyle={{ background: "#e9d35b", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="verticle-timline-element--title">
+            Web Developer(JavaScript/React)
+          </h3>
+          <p>Uzbekistan, Khorezm, Information Technology University</p>
+          <p>
+            -Self-Coding Practice <br />
+            -Learing Web Coding and JS
+          </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
