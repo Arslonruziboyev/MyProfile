@@ -13,7 +13,6 @@ function Footer() {
           <LinkedinIcon />
         </a>
         <a href="https://www.instagram.com/roziboyevarslon/">
-          {" "}
           <InstagramIcon />
         </a>
         <a href="https://www.facebook.com/arslon.ruziboyev.3/">

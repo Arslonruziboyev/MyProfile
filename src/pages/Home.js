@@ -26,6 +26,7 @@ function Home() {
       </div>
       <div className="skills">
         <h1>Skills</h1>
+
         <ol className="list">
           <li className="item">
             <h2>Front-End (Web Developing)</h2>
