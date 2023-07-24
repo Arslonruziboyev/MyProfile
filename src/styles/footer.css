@@ -18,19 +18,19 @@
   transition: 0.5s all;
   border-radius: 6px;
 }
-.socialMedia svg:first-child:hover {
+.socialMedia a:first-child svg:hover {
   color: #0072b1;
   background-color: #fff;
 }
-.socialMedia svg:nth-child(2):hover {
+.socialMedia a:nth-child(2) svg:hover {
   color: #d6249f;
   background-color: #fff;
 }
-.socialMedia svg:nth-child(3):hover {
+.socialMedia a:nth-child(3) svg:hover {
   color: #1877f2;
   background-color: #fff;
 }
-.socialMedia svg:nth-child(4):hover {
+.socialMedia a:nth-child(4) svg:hover {
   color: #1b4671;
   background-color: #fff;
 }
