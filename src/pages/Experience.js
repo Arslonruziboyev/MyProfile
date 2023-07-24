@@ -37,15 +37,18 @@ function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="verticle-timeline-element--education"
-          date="2019-2022"
+          date="2023, March"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="verticle-timline-element--title">
-            Gachon University, In South Korea, Seoul, Seongnam
+            Web Developer(JavaScript/React)
           </h3>
-          <p>Master's Degree, Computer Engineering</p>
-          <p>GPA 4.7 out of 5</p>
+          <p>
+            building a healthcare website with groupmates in our lab at Gachon
+            University
+          </p>
+          <p>Building User Interface for Healthcare Sarcopenia Project</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
