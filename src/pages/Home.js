@@ -15,7 +15,10 @@ function Home() {
             {" "}
             <LinkedinIcon />
           </a>
-          <EmailIcon />
+          {/* <a href="#">
+            {" "}
+            <EmailIcon />
+          </a> */}
           <a href="https://github.com/Arslonruziboyev">
             <GithubIcon />
           </a>

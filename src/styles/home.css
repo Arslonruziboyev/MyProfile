@@ -28,7 +28,7 @@
   width: 40%;
   font-size: 30px;
 }
-.prompt svg {
+.prompt a svg {
   margin: 5px;
   color: white;
 
@@ -38,19 +38,23 @@
   transition: 0.5s all;
   border-radius: 6px;
 }
+.prompt a {
+  display: inline-block;
+}
 
-.prompt svg:nth-child(2):hover {
+.prompt a:nth-child(2) svg:hover {
   color: #0072b1;
   background-color: #fff;
 }
-.prompt svg:nth-child(3):hover {
-  color: #1877f2;
+.prompt a:nth-child(3) svg:hover {
+  color: #1b4671;
+  /* color: #1877f2; */
   background-color: #fff;
 }
-.prompt svg:nth-child(4):hover {
+/* .prompt a:nth-child(4) svg:hover {
   color: #1b4671;
   background-color: #fff;
-}
+} */
 
 .skills {
   font-size: 35px;
