@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectItem from "../components/ProjectItem";
-import Img1 from "../assets/proj2.jpg";
-import Img2 from "../assets/proj5.jpg";
+
+import "../styles/project.css";
 
 function Projects() {
   return (
