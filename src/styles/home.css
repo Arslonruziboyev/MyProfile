@@ -7,13 +7,16 @@
 
 .about {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: 100vh;
+  margin-top: -100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #21325e;
+  background-image: url("../assets/wallpaperflare.com_wallpaper\ \(2\).jpg");
+  background-position: -80%;
+  background-size: cover;
   color: #f0f0f0;
 }
 
