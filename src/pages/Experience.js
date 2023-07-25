@@ -46,8 +46,8 @@ function Experience() {
           </h3>
           <p>South Korea, Seoul, Seongnam, Gachon University</p>
           <p>
-            Building User Interface for Healthcare Sarcopenia Project with
-            groupmates in our lab at Gachon University
+            Building User Interface for Healthcare Sarcopenia Project at Gachon
+            University
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
