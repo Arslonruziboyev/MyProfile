@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectItem from "../components/ProjectItem";
-
+import { ProjectLists } from "../helpers/ProjectLists";
 import "../styles/project.css";
 
 function Projects() {
@@ -8,8 +8,9 @@ function Projects() {
     <div className="projects">
       <h1>My own projects</h1>
       <div className="projectLists">
-        <ProjectItem name="Social Media Website" image={Img1} />
-        <ProjectItem name="Social Media Website" image={Img2} />
+        {ProjectLists.map((list) => {
+          return <ProjectItem name={list.name} image={list.image} />;
+        })}
       </div>
     </div>
   );
