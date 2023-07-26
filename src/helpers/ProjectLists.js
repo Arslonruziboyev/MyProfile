@@ -7,7 +7,11 @@ export const ProjectLists = [
     image: Img1,
   },
   {
-    name: "Socail Website",
+    name: "Neme Website",
     image: Img2,
+  },
+  {
+    name: "New Website",
+    image: Img1,
   },
 ];
