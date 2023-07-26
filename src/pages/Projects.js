@@ -7,7 +7,7 @@ function Projects() {
   return (
     <div className="projects">
       <h1>My own projects</h1>
-      <div className="projectLists">
+      <div className="projectList">
         {ProjectLists.map((list) => {
           return <ProjectItem name={list.name} image={list.image} />;
         })}
