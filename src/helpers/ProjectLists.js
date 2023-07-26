@@ -5,13 +5,16 @@ export const ProjectLists = [
   {
     name: "Socail Website",
     image: Img1,
+    skills: "Html, Css",
   },
   {
     name: "Neme Website",
     image: Img2,
+    skills: "Html, Css",
   },
   {
     name: "New Website",
     image: Img1,
+    skills: "Html, Css",
   },
 ];
