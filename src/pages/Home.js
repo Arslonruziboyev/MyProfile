@@ -29,7 +29,7 @@ function Home() {
 
         <ol className="list">
           <li className="item">
-            <h2>Front-End (Web Developing)</h2>
+            <h2>Front-End (JavaScript/React)</h2>
 
             <span>
               HTML, HTML3, CSS, CSS3 (Flexbox/Grid/Scss), Responsive Design,
