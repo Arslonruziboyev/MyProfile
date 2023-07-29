@@ -35,3 +35,14 @@
   font-size: 60px;
   color: #3e497a;
 }
+@media only screen and (max-width: 600px) {
+  .project img {
+    width: 400px;
+  }
+  .project p {
+    margin: 30px auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+  }
+}
