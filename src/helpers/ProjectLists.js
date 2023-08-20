@@ -2,6 +2,7 @@ import Project_1 from "../assets/GPT.JPG";
 import Project_2 from "../assets/OnlineStore.JPG";
 import Project_3 from "../assets/Architect.JPG";
 import Project_4 from "../assets/SimplePhoto.JPG";
+import Project_5 from "../assets/Estate.JPG";
 
 export const ProjectLists = [
   {
@@ -9,6 +10,12 @@ export const ProjectLists = [
     image: Project_1,
     skills: "Html, Css, JavaScript, React, Reponsive Design",
     linkToWebsite: "https://awsomegpt-byaslan.netlify.app/",
+  },
+  {
+    name: "Real Estate Website ",
+    image: Project_5,
+    skills: "Html, Css, JavaScript, React, Reponsive Design, Animation",
+    linkToWebsite: "https://realestate-aslan.netlify.app/",
   },
   {
     name: "Simple Online Store Project",
